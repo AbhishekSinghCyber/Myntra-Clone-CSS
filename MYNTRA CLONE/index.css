@@ -25,7 +25,7 @@ header{
 .nav_bar{
     display: flex;
     min-width: 550px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .nav_bar a{
     font-size: 14px;
@@ -56,9 +56,8 @@ header{
     color: #282c3f;
     border-radius: 5px 0 0 5px;
     font-weight: 300;
-
-
 }
+
 .search_input{
     color:#696e79 ;
     background-color: #f5f5f6;
@@ -66,7 +65,4 @@ header{
     height: 40px;
     border-radius: 0 5px 5px 0;
     border:0;
-
-    
-
 }
