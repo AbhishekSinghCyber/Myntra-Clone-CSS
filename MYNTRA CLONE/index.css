@@ -114,5 +114,35 @@ header{
 .sale-item{
     width: 250px;
 }
+/* -------------------------------------------------------------------------------- */
 
+/* footer section starts from here*/
 
+.footer-container{
+    display: flex;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    justify-content: space-evenly;
+
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column a{
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.footer-column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+}
